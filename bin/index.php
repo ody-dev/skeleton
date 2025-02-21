@@ -1,5 +1,6 @@
 <?php
 
+use Nyholm\Psr7\Request;
 use Ody\Core\Facades\Facade;
 use Ody\Core\Factory\AppFactory;
 use Ody\Core\Swoole\FileWatchers\InotifyWatcher;
@@ -10,6 +11,9 @@ require __DIR__ . '/../vendor/autoload.php';
 
 $server = new \Swoole\Http\Server('localhost', 9501);
 $app = AppFactory::create();
+$app->addBodyParsingMiddleware();
+$app->addRoutingMiddleware();
+$app->addErrorMiddleware(true, true, true);
 //$app->get('/test', '\App\Http\Controllers\PostController:test');
 Facade::setFacadeApplication($app);
 
@@ -18,6 +22,7 @@ require __DIR__ . '/../App/routes.php';
 
 // Register DB config
 require __DIR__ . '/../config/database.php';
+
 
 $app->get('/{path:.*}', function ($request, $response, array $args) {
     // do stuff ...
