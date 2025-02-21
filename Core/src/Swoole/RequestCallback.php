@@ -2,6 +2,7 @@
 
 namespace Ody\Core\Swoole;
 
+use Carbon\Carbon;
 use Laminas\Diactoros\ServerRequest;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
@@ -38,6 +39,8 @@ final class RequestCallback
 
     private function createServerRequest(Request $swooleRequest): ServerRequestInterface
     {
+        $time = Carbon::parse($swooleRequest->server['request_time_float']);
+        echo "{$time} - \033[31m{$swooleRequest->getMethod()}\033[0m - {$swooleRequest->server['remote_addr']}:{$swooleRequest->server['server_port']}{$swooleRequest->server['request_uri']}\n";
         /** @var array<string, string> $server */
         $server = $swooleRequest->server;
 

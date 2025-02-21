@@ -16,13 +16,17 @@ Facade::setFacadeApplication($app);
 // Register routes
 require __DIR__ . '/../App/routes.php';
 
+// Register DB config
+require __DIR__ . '/../config/database.php';
+
 $app->get('/{path:.*}', function ($request, $response, array $args) {
     // do stuff ...
 });
 
 $server->on('start', function ($server) {
+    echo "Server started on http://" . $server->host . ":" . $server->port . PHP_EOL;
     $watcher = new InotifyWatcher();
-    $watcher->addFilePath('/home/ilyas/script/ody/');
+    $watcher->addFilePath('/home/ilyas/script/ody/App');
 
     // Reloader tracks the changes every 1000 ms.
     $reloader = new HotCodeReloader($watcher, $server, 1000);
