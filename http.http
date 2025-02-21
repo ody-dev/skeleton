@@ -1,2 +1,2 @@
 ### test
-GET http://localhost:9501/test
+GET http://localhost:9501/test?test=test
