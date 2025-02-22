@@ -10,7 +10,7 @@ return [
             'host' => 'localhost',
             'port' => 3306, // optional
             'username' => 'root',
-            'password' => 'x3tjVsnfWs8K',
+            'password' => 'pass',
             'db_name' => 'ody',
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_general_ci', // optional, if not set default collation for utf8mb4 is used
