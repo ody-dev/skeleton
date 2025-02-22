@@ -9,5 +9,4 @@ $application = new Application();
 
 # add our commands
 $application->add(new ServeCommand());
-
 $application->run();

@@ -2,27 +2,32 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use App\Repositories\UserRepository;
 use Ody\Core\Http\JsonResponse;
 
-class PostController
+class UserController
 {
+    public function __construct(private UserRepository $userRepository)
+    {
+
+    }
     public function index()
     {
         return JsonResponse::ok([
             "message" => "Test message",
-            "body" => User::query()->get()
+            "body" => $this->userRepository->all()
         ]);
     }
 
-    public function find($request, $response, array $args)
+    public function find($id)
     {
         return JsonResponse::ok([
             "message" => "Test message",
-            "body" => User::query()->find($args['id'])
+            "body" => $this->userRepository->find($id)
         ]);
     }
 
-    public function create($request, $response, $args)
+    public function create($request)
     {
         $user = User::query()->create(
             $request->getParsedBody()
@@ -34,9 +39,9 @@ class PostController
         ]);
     }
 
-    public function update($request, $response, array $args)
+    public function update($request)
     {
-        $user = User::query()->find($args['id']);
+        $user = User::query()->find($request->getAttribute('id'));
         $user->update($request->getParsedBody());
 
         return JsonResponse::ok([

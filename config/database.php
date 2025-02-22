@@ -12,7 +12,7 @@ $capsule->addConnection(array(
     'host'      => 'localhost',
     'database'  => 'ody',
     'username'  => 'root',
-    'password'  => 'pass',
+    'password'  => 'x3tjVsnfWs8K',
     'charset'   => 'utf8',
     'collation' => 'utf8_general_ci',
     'prefix'    => ''
