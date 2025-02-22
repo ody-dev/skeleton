@@ -5,7 +5,6 @@
     "require": {
         "ext-json": "*",
         "ody/core": "@dev",
-        "ody/swoole": "@dev",
         "ody/db": "@dev"
     },
     "autoload": {
