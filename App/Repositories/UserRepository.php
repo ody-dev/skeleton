@@ -6,13 +6,16 @@ use App\Models\User;
 
 class UserRepository
 {
+    public function __construct(protected User $user)
+    {}
+
     public function all()
     {
-        return User::query()->get();
+        return $this->user->query()->get();
     }
 
     public function find(int $id)
     {
-        return User::query()->find($id);
+        return $this->user->query()->find($id);
     }
 }

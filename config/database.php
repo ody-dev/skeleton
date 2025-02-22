@@ -1,25 +1,13 @@
 <?php
 
-use Illuminate\Database\Capsule\Manager as Capsule;
-
-/**
- * Configure the database and boot Eloquent
- */
-$capsule = new Capsule;
-
-$capsule->addConnection(array(
+return [
     'driver'    => 'mysql',
-    'host'      => 'localhost',
-    'database'  => 'ody',
-    'username'  => 'root',
-    'password'  => 'x3tjVsnfWs8K',
+    'host'      => $_ENV['DB_HOST'],
+    'database'  => $_ENV['DB_DATABASE'],
+    'username'  => $_ENV['DB_USERNAME'],
+    'password'  => $_ENV['DB_PASSWORD'],
+    'port'      => $_ENV['DB_PORT'],
     'charset'   => 'utf8',
     'collation' => 'utf8_general_ci',
     'prefix'    => ''
-));
-
-$capsule->setAsGlobal();
-$capsule->bootEloquent();
-
-// set timezone for timestamps etc
-date_default_timezone_set('UTC');
+];
