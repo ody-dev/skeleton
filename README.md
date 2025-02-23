@@ -11,9 +11,13 @@ composer install
 ```
 
 ## Run the HTTP server
+```
+server:start [-d|--daemonize] [-w|--watch] [-p|--phpserver]
+```
+
 ### Run on a local php webserver
 ```
-php ody http:serve
+php ody server:start --phpserver
 ```
 
 ### Run on Swoole
@@ -21,11 +25,9 @@ Only works on unix systems!
 ```
 sudo apt install php8.3-{dev,swoole}
 pecl install inotify
-
 # Add `extension=inotify.so` to your php.ini
 
-composer require ody/swoole dev-master
-php ody http:start swoole
+php ody server:start --watcher
 ```
 
 ## Routes
