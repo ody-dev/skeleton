@@ -1,5 +1,5 @@
 vendor/
 .idea
-packages/
 composer.lock
 database/migrations
+http.http
