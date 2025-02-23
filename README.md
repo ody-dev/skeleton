@@ -6,9 +6,7 @@ Use at your own risk!
 
 ## Install
 ```
-sudo apt install php8.3-{dev,swoole}
-pecl install inotify
-# Add `extension=inotify.so` to your php.ini
+sudo apt install php8.3-swoole
 
 git pull https://github.com/IlyasDeckers/ody.git
 composer install
