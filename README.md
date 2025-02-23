@@ -64,7 +64,6 @@ php ody migration:create: UserMigration
       migrations:create    Create migration
       migrations:diff      Makes diff of source and target database or diff of migrations and database
       migrations:dump      Dump actual database structure to migration file
-      migrations:init      Initialize phoenix
       migrations:rollback  Rollback migrations
       migrations:run       Run migrations
       migrations:status    List of migrations already executed and list of migrations to execute
