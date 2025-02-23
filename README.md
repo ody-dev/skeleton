@@ -6,6 +6,10 @@ Use at your own risk!
 
 ## Install
 ```
+sudo apt install php8.3-{dev,swoole}
+pecl install inotify
+# Add `extension=inotify.so` to your php.ini
+
 git pull https://github.com/IlyasDeckers/ody.git
 composer install
 ```
@@ -23,10 +27,6 @@ php ody server:start --phpserver
 ### Run on Swoole
 Only works on unix systems!
 ```
-sudo apt install php8.3-{dev,swoole}
-pecl install inotify
-# Add `extension=inotify.so` to your php.ini
-
 php ody server:start --watcher
 ```
 
