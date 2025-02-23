@@ -3,6 +3,14 @@
 declare(strict_types=1);
 require __DIR__ . '/vendor/autoload.php';
 
+/*
+ * create const's and definitions
+ */
+define('PROJECT_PATH' , realpath('./'));
+const ODY_VERSION = '0.0.1';
+const ENABLE = true;
+const DISABLE = false;
+
 try {
     Ody\Core\Console\Console::init();
 } catch (Exception $e) {
