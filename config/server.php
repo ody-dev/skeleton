@@ -6,7 +6,7 @@ return [
     'port' => 9501 ,
     'sockType' => SWOOLE_SOCK_TCP,
     'additional' => [
-        'worker_num' => env('APP_WORKER_COUNT' , cpuCount() * 2) ,
+        'worker_num' => env('APP_WORKER_COUNT' , cpu_count() * 2) ,
         /*
          * log level
          * SWOOLE_LOG_DEBUG (default)
