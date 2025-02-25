@@ -7,11 +7,11 @@ return [
     'environments' => [
         'local' => [
             'adapter' => 'mysql',
-            'host' => $_ENV['DB_HOST'],
-            'port' => $_ENV['DB_PORT'], // optional
-            'username' => $_ENV['DB_USERNAME'],
-            'password' => $_ENV['DB_PASSWORD'],
-            'db_name' => $_ENV['DB_DATABASE'],
+            'host' => env('DB_HOST' , false),
+            'port' => env('DB_PORT' , false), // optional
+            'username' => env('DB_USERNAME' , false),
+            'password' => env('DB_PASSWORD' , false),
+            'db_name' => env('DB_DATABASE' , false),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_general_ci', // optional, if not set default collation for utf8mb4 is used
             'prefix'    => ''
