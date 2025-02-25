@@ -1,11 +1,16 @@
 {
+    "name": "ody/ody-skel",
+    "description": "A minimal skeleton for ODY framework",
+    "version": "0.0.1",
+    "minimum-stability": "stable",
     "platform": {
         "php": "^8.3.x"
     },
     "require": {
         "ext-json": "*",
-        "ody/core": "@dev",
-        "ody/db": "@dev"
+        "ody/core": "0.0.1",
+        "ody/db": "0.0.1",
+        "ody/swoole": "0.0.1"
     },
     "autoload": {
         "files": [
