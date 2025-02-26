@@ -19,6 +19,7 @@ return [
         'log_level' => SWOOLE_LOG_DEBUG ,
         'log_file' => storagePath('logs/ody.log') ,
         'open_http_protocol' => true,
+        'enable_coroutine' => false
     ],
 
     'ssl' => [
