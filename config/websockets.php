@@ -12,7 +12,19 @@ return [
         Event::ON_REQUEST => [\Ody\Swoole\Websockets\Server::class, 'onRequest'],
         Event::ON_DISCONNECT => [\Ody\Swoole\Websockets\Server::class, 'onDisconnect'],
     ],
+    'secret_key' => env('WEBSOCKET_SECRET_KEY', '123123123'),
     "additional" => [
-        "worker_num" => env('APP_WEBSOCKET_WORKER_NUM', cpu_count() * 2),
+        "worker_num" => env('WEBSOCKET_WORKER_COUNT', cpu_count() * 2),
+        /*
+         * log level
+         * SWOOLE_LOG_DEBUG (default)
+         * SWOOLE_LOG_TRACE
+         * SWOOLE_LOG_INFO
+         * SWOOLE_LOG_NOTICE
+         * SWOOLE_LOG_WARNING
+         * SWOOLE_LOG_ERROR
+         */
+        'log_level' => SWOOLE_LOG_DEBUG ,
+        'log_file' => storagePath('logs/ody_websockets.log') ,
     ]
 ];
