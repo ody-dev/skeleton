@@ -14,7 +14,7 @@ return [
     ],
     'secret_key' => env('WEBSOCKET_SECRET_KEY', '123123123'),
     "additional" => [
-        "worker_num" => env('WEBSOCKET_WORKER_COUNT', cpu_count() * 2),
+        "worker_num" => env('WEBSOCKET_WORKER_COUNT', swoole_cpu_num() * 2),
         /*
          * log level
          * SWOOLE_LOG_DEBUG (default)

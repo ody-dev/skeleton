@@ -1,11 +1,7 @@
 <?php
-
+var_dump(env('APP_DEBUG'));
 return [
     'debug' => env('APP_DEBUG' , false),
-    /*
-     * The following services are created for better performance
-     * in the program, only one object is created from them and
-     * they can be used throughout the program
-     */
-    'services' => [],
+    'environment' => env('APP_ENV', 'local'),
+    'services' => [], // Register services in a container instance
 ];

@@ -6,7 +6,7 @@ return [
     'port' => env('HTTP_SERVER_PORT' , 9501) ,
     'sock_type' => SWOOLE_SOCK_TCP,
     'additional' => [
-        'worker_num' => env('HTTP_SERVER_WORKER_COUNT' , cpu_count() * 2) ,
+        'worker_num' => env('HTTP_SERVER_WORKER_COUNT' , swoole_cpu_num() * 2) ,
         /*
          * log level
          * SWOOLE_LOG_DEBUG (default)
