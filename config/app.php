@@ -10,8 +10,9 @@ return [
     'services' => [
         \Ody\Swoole\Cache\Cache::class,
     ],
-    'service_providers' => [
-        \Ody\HttpServer\ServiceProviders\HttpServerServiceProvider::class,
-        \Ody\Websocket\ServiceProviders\WebsocketServiceProvider::class,
+
+    'providers' => [
+        \Ody\Core\ServiceProviders\RouteServiceProvider::class,
+        \Ody\DB\ServiceProviders\DatabaseServiceProvider::class,
     ]
 ];
