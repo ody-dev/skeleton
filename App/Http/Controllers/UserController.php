@@ -15,12 +15,14 @@ class UserController
     {
         return JsonResponse::ok([
             "message" => "Test message",
-            "body" => $this->userRepository->all()
+            "body" => 'success'
         ]);
     }
 
     public function find($id)
     {
+//        dd('test');
+
         return JsonResponse::ok([
             "message" => "Test message",
             "body" => $this->userRepository->find($id)
