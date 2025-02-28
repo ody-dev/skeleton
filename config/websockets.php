@@ -6,15 +6,15 @@ return [
     'port' => env('WEBSOCKET_PORT', 9502),
     'sock_type' => SWOOLE_SOCK_TCP,
     'callbacks' => [
-        Event::ON_HAND_SHAKE => [\Ody\Swoole\Websockets\Server::class, 'onHandShake'],
-        Event::ON_MESSAGE => [\Ody\Swoole\Websockets\Server::class, 'onMessage'],
-        Event::ON_CLOSE => [\Ody\Swoole\Websockets\Server::class, 'onClose'],
-        Event::ON_REQUEST => [\Ody\Swoole\Websockets\Server::class, 'onRequest'],
-        Event::ON_DISCONNECT => [\Ody\Swoole\Websockets\Server::class, 'onDisconnect'],
+        Event::ON_HAND_SHAKE => [\Ody\Websocket\Server::class, 'onHandShake'],
+        Event::ON_MESSAGE => [\Ody\Websocket\Server::class, 'onMessage'],
+        Event::ON_CLOSE => [\Ody\Websocket\Server::class, 'onClose'],
+        Event::ON_REQUEST => [\Ody\Websocket\Server::class, 'onRequest'],
+        Event::ON_DISCONNECT => [\Ody\Websocket\Server::class, 'onDisconnect'],
     ],
     'secret_key' => env('WEBSOCKET_SECRET_KEY', '123123123'),
     "additional" => [
-        "worker_num" => env('WEBSOCKET_WORKER_COUNT', cpu_count() * 2),
+        "worker_num" => env('WEBSOCKET_WORKER_COUNT', swoole_cpu_num() * 2),
         /*
          * log level
          * SWOOLE_LOG_DEBUG (default)
