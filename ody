@@ -1,6 +1,11 @@
 #!/usr/bin/env php
 <?php
 declare(strict_types=1);
+
+use DI\Container;
+use Ody\Core\Foundation\App;
+use Ody\Core\Foundation\Bootstrap;
+
 require __DIR__ . '/vendor/autoload.php';
 
 /*
@@ -11,8 +16,14 @@ const ODY_VERSION = '0.0.1';
 const ENABLE = true;
 const DISABLE = false;
 
+$container = new Container();
+$container->set('runningInConsole', true);
+$app = Bootstrap::init(
+    App::create($container),
+);
+
 try {
-    Ody\Core\Console\Console::init();
+    Ody\Core\Console\Console::init($app);
 } catch (Exception $e) {
     echo 'Error: ' . $e->getMessage() . "\n";
 }
