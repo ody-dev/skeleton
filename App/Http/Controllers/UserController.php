@@ -3,7 +3,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use App\Repositories\UserRepository;
-use Ody\Core\Http\JsonResponse;
+use Ody\Core\Foundation\Http\JsonResponse;
 
 class UserController
 {
@@ -15,14 +15,12 @@ class UserController
     {
         return JsonResponse::ok([
             "message" => "Test message",
-            "body" => 'success'
+            "body" => $this->userRepository->getAll()
         ]);
     }
 
     public function find($id)
     {
-//        dd('test');
-
         return JsonResponse::ok([
             "message" => "Test message",
             "body" => $this->userRepository->find($id)
