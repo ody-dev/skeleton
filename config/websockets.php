@@ -1,16 +1,17 @@
 <?php
-use Ody\Swoole\Event;
+
+use Ody\Websocket\WsEvent;
 
 return [
     'host' => env('WEBSOCKET_HOST', '127.0.0.1'),
     'port' => env('WEBSOCKET_PORT', 9502),
     'sock_type' => SWOOLE_SOCK_TCP,
     'callbacks' => [
-        Event::ON_HAND_SHAKE => [\Ody\Websocket\Server::class, 'onHandShake'],
-        Event::ON_MESSAGE => [\Ody\Websocket\Server::class, 'onMessage'],
-        Event::ON_CLOSE => [\Ody\Websocket\Server::class, 'onClose'],
-        Event::ON_REQUEST => [\Ody\Websocket\Server::class, 'onRequest'],
-        Event::ON_DISCONNECT => [\Ody\Websocket\Server::class, 'onDisconnect'],
+        WsEvent::ON_HAND_SHAKE => [\Ody\Websocket\Server::class, 'onHandShake'],
+        WsEvent::ON_MESSAGE => [\Ody\Websocket\Server::class, 'onMessage'],
+        WsEvent::ON_CLOSE => [\Ody\Websocket\Server::class, 'onClose'],
+        WsEvent::ON_REQUEST => [\Ody\Websocket\Server::class, 'onRequest'],
+        WsEvent::ON_DISCONNECT => [\Ody\Websocket\Server::class, 'onDisconnect'],
     ],
     'secret_key' => env('WEBSOCKET_SECRET_KEY', '123123123'),
     "additional" => [
