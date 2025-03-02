@@ -3,7 +3,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use App\Repositories\UserRepository;
-use Ody\Core\Http\JsonResponse;
+use Ody\Core\Foundation\Http\JsonResponse;
 
 class UserController
 {
@@ -15,7 +15,7 @@ class UserController
     {
         return JsonResponse::ok([
             "message" => "Test message",
-            "body" => $this->userRepository->all()
+            "body" => $this->userRepository->getAll()
         ]);
     }
 

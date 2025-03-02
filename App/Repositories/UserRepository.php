@@ -9,7 +9,7 @@ class UserRepository
     public function __construct(protected User $user)
     {}
 
-    public function all()
+    public function getAll()
     {
         return $this->user->query()->get();
     }

@@ -28,5 +28,5 @@ return [
         ],
     ],
     'default_environment' => 'local',
-    'log_table_name' => 'phoenix_log',
+    'log_table_name' => 'migrations_log',
 ];
