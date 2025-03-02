@@ -1,5 +1,7 @@
 <?php
 
+use Ody\HttpServer\ServerEvent;
+
 return [
     'mode' => SWOOLE_BASE,
     'host' => env('HTTP_SERVER_HOST' , '127.0.0.1'),
@@ -41,6 +43,16 @@ return [
          * 0 - Disable runtime hooks
          */
         'hook_flag' => SWOOLE_HOOK_ALL,
+    ],
+
+    /**
+     * Override default callbacks for server events
+     */
+    'callbacks' => [
+        ServerEvent::ON_REQUEST => [\Ody\Core\Server\HttpServer::class, 'onRequest'],
+        ServerEvent::ON_START => [\Ody\HttpServer\Server::class, 'onStart'],
+        ServerEvent::ON_WORKER_ERROR => [\Ody\HttpServer\Server::class, 'onWorkerError'],
+        ServerEvent::ON_WORKER_START => [\Ody\HttpServer\Server::class, 'onWorkerStart'],
     ],
 
     'ssl' => [
