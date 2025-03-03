@@ -2,11 +2,9 @@
     "name": "ody/ody-skel",
     "description": "A minimal skeleton for ODY framework",
     "minimum-stability": "stable",
-    "platform": {
-        "php": "^8.3.x"
-    },
+    "license": "MIT",
     "require": {
-        "ext-json": "*",
+        "php": ">=8.3"
         "ody/core": "^0.0.1",
         "ody/database": "^0.0.1",
         "ody/http-server": "^0.0.1"
