@@ -1,3 +1,6 @@
+[![Actions Status](https://github.com/ody-dev/ody-skeleton/workflows/Build%20and%20test/badge.svg)](https://github.com/ody-dev/ody-skeleton/actions)
+[![License](https://poser.pugx.org/ody/core/license)](https://packagist.org/packages/ody/core)
+
 # Ody
 
 A lightweight REST API framework build from scratch on top of Swoole HTTP server for shits and giggles.
@@ -8,18 +11,13 @@ Use at your own risk!
 ```
 sudo apt install php8.3-swoole
 
-git pull https://github.com/IlyasDeckers/ody.git
+git pull https://github.com/ody-dev/ody-skeleton.git
 composer install
 ```
 
 ## Run the HTTP server
 ```
-server:start [-d|--daemonize] [-w|--watch] [-p|--phpserver]
-```
-
-### Run on a local php webserver
-```
-php ody server:start --phpserver
+server:start [-d|--daemonize] [-w|--watch]
 ```
 
 ### Run on Swoole
