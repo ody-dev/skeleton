@@ -7,9 +7,10 @@
     },
     "require": {
         "ext-json": "*",
-        "ody/core": "^0.0.3",
+        "ody/core": "^0.0.1",
         "ody/db": "^0.0.1",
-        "ody/swoole": "^0.0.4"
+        "ody/http-server": "^0.0.1"
+        "ody/swoole": "^0.0.1"
     },
     "autoload": {
         "files": [
