@@ -10,7 +10,6 @@
         "ody/core": "^0.0.1",
         "ody/database": "^0.0.1",
         "ody/http-server": "^0.0.1"
-        "ody/swoole": "^0.0.1"
     },
     "autoload": {
         "files": [
