@@ -2,6 +2,7 @@
 namespace App\Http;
 
 use Ody\Core\Foundation\HttpKernel as Kernel;
+use Ody\Core\Foundation\Middleware\BodyParsingMiddleware;
 
 class HttpKernel extends Kernel
 {

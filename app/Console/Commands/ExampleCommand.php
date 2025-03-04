@@ -2,7 +2,7 @@
 
 namespace App\Console\Commands;
 
-use Ody\Core\Console\Command;
+use Ody\Core\Foundation\Console\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 

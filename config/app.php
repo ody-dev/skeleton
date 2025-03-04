@@ -14,6 +14,7 @@ return [
     'providers' => [
         \Ody\Core\Foundation\Providers\RouteServiceProvider::class,
         \Ody\DB\ServiceProviders\DatabaseServiceProvider::class,
-        \Ody\HttpServer\ServiceProviders\HttpServerServiceProvider::class,
+        \Ody\HttpServer\Providers\HttpServerServiceProvider::class,
+        \App\Providers\CommandServiceProvider::class,
     ]
 ];
