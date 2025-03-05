@@ -49,4 +49,8 @@ return [
          */
         "hook_flag" => SWOOLE_HOOK_ALL,
     ],
+
+    "jobs" => [
+        \App\Console\Jobs\JobPerMin::class,
+    ]
 ];
