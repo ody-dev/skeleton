@@ -2,12 +2,15 @@
     "name": "ody/ody-skel",
     "description": "A minimal skeleton for ODY framework",
     "minimum-stability": "stable",
-    "license": "MIT",
     "require": {
         "php": ">=8.3",
-        "ody/core": "^0.0.1",
-        "ody/database": "^0.0.1",
-        "ody/http-server": "^0.0.1"
+        "ext-json": "*",
+        "ody/core": "^0.0.2",
+        "ody/database": "^0.0.2",
+        "ody/swoole": "^0.0.2",
+        "ody/http-server": "^0.0.2",
+        "ody/scheduler": "^0.0.1",
+        "ody/websocket": "^0.0.2"
     },
     "autoload": {
         "files": [
