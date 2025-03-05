@@ -19,6 +19,6 @@ const DISABLE = false;
 $app = App::create(new Container());
 $app->bind('runningInConsole', true);
 
-Ody\Core\Console\Console::init(
+Ody\Core\Foundation\Console\Console::init(
     Bootstrap::init($app)
 );
