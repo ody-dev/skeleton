@@ -2,21 +2,19 @@
     "name": "ody/ody-skel",
     "description": "A minimal skeleton for ODY framework",
     "minimum-stability": "stable",
-    "platform": {
-        "php": "^8.3.x"
-    },
+    "license": "MIT",
     "require": {
-        "ext-json": "*",
-        "ody/core": "^0.0.3",
-        "ody/db": "^0.0.1",
-        "ody/swoole": "^0.0.4"
+        "php": ">=8.3",
+        "ody/core": "^0.0.1",
+        "ody/database": "^0.0.1",
+        "ody/http-server": "^0.0.1"
     },
     "autoload": {
         "files": [
-            "App/helpers.php"
+            "app/helpers.php"
         ],
         "psr-4": {
-            "App\\": "App/"
+            "App\\": "app/"
         }
     }
 }
