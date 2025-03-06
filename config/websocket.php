@@ -8,12 +8,12 @@ return [
     'port' => env('WEBSOCKET_PORT', 9502),
     'sock_type' => SWOOLE_SOCK_TCP,
     'callbacks' => [
-        WsEvent::ON_HAND_SHAKE => [\Ody\Websocket\WsServer::class, 'onHandShake'],
-        WsEvent::ON_WORKER_START => [\Ody\Websocket\WsServer::class, 'onWorkerStart'],
-        WsEvent::ON_MESSAGE => [\Ody\Websocket\WsServer::class, 'onMessage'],
-        WsEvent::ON_CLOSE => [\Ody\Websocket\WsServer::class, 'onClose'],
-        WsEvent::ON_REQUEST => [\Ody\Websocket\WsServer::class, 'onRequest'],
-        WsEvent::ON_DISCONNECT => [\Ody\Websocket\WsServer::class, 'onDisconnect'],
+        WsEvent::ON_HAND_SHAKE => [\Ody\Websocket\WsServerCallbacks::class, 'onHandShake'],
+        WsEvent::ON_WORKER_START => [\Ody\Websocket\WsServerCallbacks::class, 'onWorkerStart'],
+        WsEvent::ON_MESSAGE => [\Ody\Websocket\WsServerCallbacks::class, 'onMessage'],
+        WsEvent::ON_CLOSE => [\Ody\Websocket\WsServerCallbacks::class, 'onClose'],
+        WsEvent::ON_REQUEST => [\Ody\Websocket\WsServerCallbacks::class, 'onRequest'],
+        WsEvent::ON_DISCONNECT => [\Ody\Websocket\WsServerCallbacks::class, 'onDisconnect'],
     ],
     'secret_key' => env('WEBSOCKET_SECRET_KEY', '123123123'),
     "additional" => [
@@ -28,7 +28,10 @@ return [
          * SWOOLE_LOG_ERROR
          */
         'log_level' => SWOOLE_LOG_DEBUG ,
-        'log_file' => storagePath('logs/ody_websockets.log') ,
+        'log_file' => storagePath('logs/ody_websockets.log'),
+        'open_websocket_ping_frame' => true,
+        'open_websocket_pong_frame' => true,
+        'daemonize' => false,
     ],
     'ssl' => [
         'ssl_cert_file' => null ,
