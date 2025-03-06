@@ -1,0 +1,336 @@
+[2025-03-06 21:02:04 *21690.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:04 $21681.0]	WARNING	Worker::report_error(): worker(pid=21690, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:04 *21691.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:04 $21681.0]	WARNING	Worker::report_error(): worker(pid=21691, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:04 *21692.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:04 $21681.0]	WARNING	Worker::report_error(): worker(pid=21692, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:04 *21693.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:04 $21681.0]	WARNING	Worker::report_error(): worker(pid=21693, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:04 *21694.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:04 $21681.0]	WARNING	Worker::report_error(): worker(pid=21694, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:04 *21695.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:04 $21681.0]	WARNING	Worker::report_error(): worker(pid=21695, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21696.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21696, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21697.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21697, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21698.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21698, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21699.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21699, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21700.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21700, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21701.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21701, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21702.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21702, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21703.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21703, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21704.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21704, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21705.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21705, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21706.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21706, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21707.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21707, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21708.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21708, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21709.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21709, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21710.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21710, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21711.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21711, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21712.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21712, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21713.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21713, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21714.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21714, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21715.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21715, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21716.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21716, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21717.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21717, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21718.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21718, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21719.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21719, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21720.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21720, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21721.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21721, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21722.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21722, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21723.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21723, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21724.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21724, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21725.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21725, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21726.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21726, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21727.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21727, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21728.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21728, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21729.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21729, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21730.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21730, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21731.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21731, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21732.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21732, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21733.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21733, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21734.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21734, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21735.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21735, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21736.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21736, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21737.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21737, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21738.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21738, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21739.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21739, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21740.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21740, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21741.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21741, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21742.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21742, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21743.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21743, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21744.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21744, id=7) abnormal exit, status=255, signal=0
+[2025-03-06 21:02:05 *21745.7]	ERROR	php_swoole_server_rshutdown() (ERRNO 503): Fatal error: Uncaught Error: Class "Ody\Websocket\WebsocketServerState" not found in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php:228
+Stack trace:
+#0 [internal function]: Ody\Websocket\WsServerCallbacks::onWorkerStart()
+#1 {main}
+  thrown in /home/ilyas/script/ody/ody-websocket/src/WsServerCallbacks.php on line 228
+[2025-03-06 21:02:05 $21681.0]	WARNING	Worker::report_error(): worker(pid=21745, id=7) abnormal exit, status=255, signal=0
