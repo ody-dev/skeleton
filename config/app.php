@@ -16,6 +16,6 @@ return [
         \Ody\DB\ServiceProviders\DatabaseServiceProvider::class,
         \Ody\HttpServer\Providers\HttpServerServiceProvider::class,
         \Ody\Scheduler\Providers\SchedulerServiceProvider::class,
-        \Ody\Websocket\Providers\WebsocketServiceProvider::class,
+//        \Ody\Websocket\Providers\WebsocketServiceProvider::class,
     ]
 ];
