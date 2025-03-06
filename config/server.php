@@ -8,6 +8,7 @@ return [
     'port' => env('HTTP_SERVER_PORT' , 9501) ,
     'sock_type' => SWOOLE_SOCK_TCP,
     'additional' => [
+        'daemonize' => false,
         'worker_num' => env('HTTP_SERVER_WORKER_COUNT' , swoole_cpu_num() * 2) ,
         'open_http_protocol' => true,
         /**
@@ -25,6 +26,7 @@ return [
         'log_date_format' => '%Y-%m-%d %H:%M:%S',
 
         // Coroutine
+        'enable_coroutine' => false,
         'max_coroutine' => 3000,
         'send_yield' => false,
     ],
@@ -50,9 +52,9 @@ return [
      */
     'callbacks' => [
         ServerEvent::ON_REQUEST => [\Ody\Core\Server\HttpServer::class, 'onRequest'],
-        ServerEvent::ON_START => [\Ody\HttpServer\Server::class, 'onStart'],
-        ServerEvent::ON_WORKER_ERROR => [\Ody\HttpServer\Server::class, 'onWorkerError'],
-        ServerEvent::ON_WORKER_START => [\Ody\HttpServer\Server::class, 'onWorkerStart'],
+        ServerEvent::ON_START => [\Ody\HttpServer\ServerCallbacks::class, 'onStart'],
+        ServerEvent::ON_WORKER_ERROR => [\Ody\HttpServer\ServerCallbacks::class, 'onWorkerError'],
+        ServerEvent::ON_WORKER_START => [\Ody\HttpServer\ServerCallbacks::class, 'onWorkerStart'],
     ],
 
     'ssl' => [
