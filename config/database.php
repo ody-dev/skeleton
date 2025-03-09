@@ -4,6 +4,7 @@ return [
     'migration_dirs' => [
         'migrations' => 'database/migrations',
     ],
+    'charset' => 'utf8mb4',
     'environments' => [
         'local' => [
             'adapter' => 'mysql',
@@ -31,8 +32,15 @@ return [
     'log_table_name' => 'migrations_log',
     'coroutine_enabled' => false,
     'connection_pool' => [
-        'enabled' => false,
+        'enabled' => true,
         'host' => '127.0.0.1',
         'port' => 9504,
+        'additional' => [
+
+            'enable_delay_receive' => true,
+        ],
+        'allowed_ips' => [
+            '127.0.0.1'
+        ],
     ]
 ];
