@@ -15,7 +15,10 @@ return [
             'db_name' => env('DB_DATABASE' , false),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_general_ci', // optional, if not set default collation for utf8mb4 is used
-            'prefix'    => ''
+            'prefix'    => '',
+            'options'   => [
+                // PDO::ATTR_EMULATE_PREPARES => true
+            ],
         ],
         'production' => [
             'adapter' => 'mysql',
@@ -30,13 +33,11 @@ return [
     ],
     'default_environment' => 'local',
     'log_table_name' => 'migrations_log',
-    'coroutine_enabled' => false,
     'connection_pool' => [
         'enabled' => true,
         'host' => '127.0.0.1',
         'port' => 9504,
         'additional' => [
-
             'enable_delay_receive' => true,
         ],
         'allowed_ips' => [
