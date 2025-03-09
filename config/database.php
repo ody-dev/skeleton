@@ -34,7 +34,7 @@ return [
     'default_environment' => 'local',
     'log_table_name' => 'migrations_log',
     'connection_pool' => [
-        'enabled' => true,
+        'enabled' => false,
         'host' => '127.0.0.1',
         'port' => 9504,
         'additional' => [
