@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'key' => env('APP_SECRET_KEY' , 'secret'),
     'debug' => env('APP_DEBUG' , false),
     /*
      * The following services are created for better performance
@@ -13,6 +14,7 @@ return [
 
     'providers' => [
         \Ody\Core\Foundation\Providers\RouteServiceProvider::class,
+        \Ody\Core\Foundation\Providers\ConsoleServiceProvider::class,
         \Ody\DB\ServiceProviders\DatabaseServiceProvider::class,
         \Ody\Server\Providers\HttpServerServiceProvider::class,
         \Ody\Scheduler\Providers\SchedulerServiceProvider::class,
