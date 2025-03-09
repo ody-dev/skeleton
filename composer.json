@@ -1,7 +1,7 @@
 {
     "name": "ody/ody-skel",
     "description": "A minimal skeleton for ODY framework",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=8.3",
         "ext-json": "*",
@@ -21,6 +21,31 @@
         }
     },
     "require-dev": {
-        "swoole/ide-helper": "^6.0"
+        "swoole/ide-helper": "^6.0",
+        "pestphp/pest": "^3.7",
+        "pestphp/pest-plugin-stressless": "^3.1"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../ody-core"
+        },
+        {
+            "type": "path",
+            "url": "../ody-swoole"
+        },
+        {
+            "type": "path",
+            "url": "../ody-server"
+        },
+        {
+            "type": "path",
+            "url": "../ody-database"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     }
 }
