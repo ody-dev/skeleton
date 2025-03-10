@@ -12,7 +12,7 @@ class SomeProcess extends AbstractProcess implements ProcessInterface
 
     private Process $worker;
 
-    public function __construct(Process $worker)
+    public function __construct($args, Process $worker)
     {
         $this->worker = $worker;
         parent::__construct();
