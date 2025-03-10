@@ -14,10 +14,5 @@ return [
 
     'providers' => [
         \Ody\Core\Foundation\Providers\RouteServiceProvider::class,
-        \Ody\Core\Foundation\Providers\ConsoleServiceProvider::class,
-        \Ody\DB\ServiceProviders\DatabaseServiceProvider::class,
-        \Ody\Server\Providers\HttpServerServiceProvider::class,
-        \Ody\Scheduler\Providers\SchedulerServiceProvider::class,
-        \Ody\Websocket\Providers\WebsocketServiceProvider::class,
     ]
 ];
